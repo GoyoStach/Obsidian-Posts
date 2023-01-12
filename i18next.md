@@ -1,5 +1,5 @@
 ---
-layout: '../../../layouts/BlogPost.astro'
+layout: '../../layouts/BlogPost.astro'
 title: i18next
 description: A tutorial about i18next and how it can be utilized to add multiple language support to a react web application.
 date: 2022-12-17 13:57
