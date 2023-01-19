@@ -5,7 +5,8 @@ title: Advise for life
 description: 
 date: 2023-01-19 20:05
 tags: 
-- 
+- Health
+- Learning
 heroImage: /Images/Advise_for_life/Advise_for_life_hero.jpg
 
 ---
@@ -27,7 +28,7 @@ heroImage: /Images/Advise_for_life/Advise_for_life_hero.jpg
 13. Make it a habit to do nice things for people who will never find out. 
 14. Lend only those books you never care to see again. 
 15. Never deprive someone of hope; it might be all they have. 
-16. When playing games with children,let them win. 
+16. When playing games with children, let them win. 
 17. Give people a second chance, but not a third. 
 18. Be romantic. 
 19. Become the most positive and enthusiastic person you know. 
@@ -63,7 +64,7 @@ heroImage: /Images/Advise_for_life/Advise_for_life_hero.jpg
 49. Remember that 80% of the success in any job is based on your ability to deal with people.
 50. Don't expect life to be fair.
 #### References
-Tags : #
+Tags : #Health #Learning 
 
 
 
