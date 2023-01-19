@@ -6,7 +6,7 @@ description:
 date: 2023-01-19 20:05
 tags: 
 - 
-heroImage: /Images/Advise_for_life/Advise_for_life_hero.png
+heroImage: /Images/Advise_for_life/Advise_for_life_hero.jpg
 
 ---
 
