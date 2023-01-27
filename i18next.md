@@ -5,6 +5,7 @@ description: A tutorial about i18next and how it can be utilized to add multiple
 date: 2022-12-17 13:57
 tags:
 - React
+- Code
 - TS
 heroImage: /Images/i18next/i18next_hero.png
 ---
@@ -217,3 +218,5 @@ You now have a fonctionning example of i18next for multiple language support. He
 You can find the full code of the project [here](https://gitlab.com/Guillaumeexc1/18next-demo)
 Inspired by this video : [React Multi Language App - i18next Tutorial](https://www.youtube.com/watch?v=w04LXKlusCQ)
 
+#### References
+Tags : #React #Code #TS

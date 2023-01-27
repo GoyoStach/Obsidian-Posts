@@ -21,7 +21,7 @@ Since I've started taking interest in alcohol, Gin has always been one of the st
 
 ### Nikka Coffee 
 
-![Nikka Coffee](Images/Gin_Collection/Nikka_Coffee.jpg)
+![Nikka Coffee](/Images/Gin_Collection/Nikka_Coffee.jpg)
 
 
 ## English Gin

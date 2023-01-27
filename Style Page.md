@@ -2,6 +2,8 @@
 layout: '../../layouts/BlogPost.astro'
 title: 'Markdown Style Test'
 description: 'This file is used to see if the styling is properly working on the markdown content.'
+tags: 
+- Code
 heroImage: '/placeholder-hero.jpg'
 ---
 
@@ -105,3 +107,6 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+
+#### References
+Tags :  #Code 
