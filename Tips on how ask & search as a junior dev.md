@@ -36,7 +36,9 @@ This interaction is useless and often lead to no answer. Multiples reason could 
 
 **What you should do**:
 ```
-<n00b> Hey goyo I have some issue on passing some props to my react component here is my code and i cant seem to understand why it doesn't work
+<n00b> Hey goyo I have some issue on using some props 
+in my react component. Here is my code and 
+I cant seem to understand why it doesn't work
 <goyo> No problem, i'll check it in between meeting and will get back to you before tomorrow morning.  
 ```
 Many benefits :
@@ -45,6 +47,8 @@ Many benefits :
 - Makes you improve in your way of communicating issue
 - Respectful of the time of the dev
 - Can directly redirect you if not able or does not have time to help
+- While formulating your question correctly you might find the answer alone !
+
 ## [XY problem](https://xyproblem.info/) 
 When searching on a problem you will sometimes believe that getting help to solve a small part will unblock you. 
 So rather than asking help for the final problem you will ask for a rather smaller task. However it will not be the optimal way to solve your bigger problem leading in having to ask for help twice. 
