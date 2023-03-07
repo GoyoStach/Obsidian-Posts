@@ -2,7 +2,7 @@
  
 layout: '../../layouts/BlogPost.astro'
 title: Onboarding Logiciel
-description: 
+description: Guide du nouvel arrivant pour developpeur JS/TS. Logiciels recommandés & extensions VSCode.
 date: 2023-03-07 15:57
 tags: 
 - FR 

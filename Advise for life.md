@@ -2,7 +2,7 @@
  
 layout: '../../layouts/BlogPost.astro'
 title: Advise for life
-description: 
+description: Life motto to  live as a great person !
 date: 2023-01-19 20:05
 tags: 
 - Health
