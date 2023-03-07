@@ -1,3 +1,14 @@
+---
+ 
+layout: '../../layouts/BlogPost.astro'
+title: Onboarding Logiciel
+description: 
+date: 2023-03-07 15:57
+tags: 
+- FR 
+- TS
+heroImage: /Images/Onboarding_Logiciel/Onboarding_Logiciel_hero.jpg
+---
 # Onboarding Logiciel
 
 - [Onboarding Logiciel](#onboarding-logiciel)
@@ -165,3 +176,5 @@ Il est recommandé d'installer un theme afin de personnalisé son experience en 
 
 
 
+#### References
+Tags : #FR #TS
