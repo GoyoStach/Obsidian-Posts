@@ -48,7 +48,7 @@ Outil principal, [voir section dedié pour la customisation](#vs-code)
 
 ### Docker 
 
-![Docker Desktop](Images/Onboarding_Logiciel/Docker_Desktop.png)
+![Docker Desktop](/Images/Onboarding_Logiciel/Docker_Desktop.png)
 
 Docker est une plateforme permettant de lancer certaines applications dans des conteneurs logiciels.
 
@@ -61,7 +61,7 @@ Docker est un outil complet et complexe. Il ne sera pas nécessaire de comprendr
 ### DBeaver
 
 
-![DBeaver](Images/Onboarding_Logiciel/dbeaver.png)
+![DBeaver](/Images/Onboarding_Logiciel/dbeaver.png)
 
 DBeaver est un logiciel permettant l'administration et le requêtage de base de données.
 
@@ -72,7 +72,7 @@ DBeaver est un logiciel permettant l'administration et le requêtage de base de 
 
 ### Postman
 
-![Postman](Images/Onboarding_Logiciel/Postman.png)
+![Postman](/Images/Onboarding_Logiciel/Postman.png)
 
 Postman est une application permettant de tester des API.
 
@@ -83,7 +83,7 @@ Postman est une application permettant de tester des API.
 
 ### KeepassXC
 
-![KeepassXC](Images/Onboarding_Logiciel/keepassxc.png)
+![KeepassXC](/Images/Onboarding_Logiciel/keepassxc.png)
 
 KeePassXC est un gestionnaire de mots de passe gratuit et open-source
 
@@ -95,7 +95,7 @@ KeePassXC est un gestionnaire de mots de passe gratuit et open-source
 
 ### mRemoteNG
 
-![mRemote](Images/Onboarding_Logiciel/mRemoteNG.png)
+![mRemote](/Images/Onboarding_Logiciel/mRemoteNG.png)
 
 mRemoteNG is a fork of mRemote: an open source, tabbed, multi-protocol, remote connections manager for Windows. mRemoteNG adds bug fixes and new features to mRemote and allows you to view all of your remote connections in a simple yet powerful tabbed interface.
 
@@ -105,11 +105,11 @@ mRemoteNG is a fork of mRemote: an open source, tabbed, multi-protocol, remote c
 
 ### Firefox, Edge, Chrome
 
-![navigateur](Images/Onboarding_Logiciel/navigateur.jpg)
+![navigateur](/Images/Onboarding_Logiciel/navigateur.jpg)
 
 Surtout pour les devs front afin de tester les différentes compaptibilités en fonction du navigateur.
 
-![cssDemo](Images/Onboarding_Logiciel/cssdemo.png)
+![cssDemo](/Images/Onboarding_Logiciel/cssdemo.png)
 
 Certains navigateur sont plus adapaté que d'autre pour certaines étapes de débugging
 
@@ -126,47 +126,47 @@ Afin de prendre en main VSCode, voici une liste de plusieurs extension recommand
 
 
 #### Git Graph
-![gitGraph](Images/Onboarding_Logiciel/gitgraph.png)
+![gitGraph](/Images/Onboarding_Logiciel/gitgraph.png)
 
 #### Git Lens
-![gitLens](Images/Onboarding_Logiciel/gitlens.png)
+![gitLens](/Images/Onboarding_Logiciel/gitlens.png)
 
 ### Extension Qualité code
 
 
 #### Prettier
-![Prettier](Images/Onboarding_Logiciel/prettier.png)
+![Prettier](/Images/Onboarding_Logiciel/prettier.png)
 
 #### EsLint
-![eslint](Images/Onboarding_Logiciel/eslint.png)
+![eslint](/Images/Onboarding_Logiciel/eslint.png)
 
 #### Docker
 
-![docker](Images/Onboarding_Logiciel/docker.png)
+![docker](/Images/Onboarding_Logiciel/docker.png)
 
 #### Sonar Lint *(Optional)*
-![sonar](Images/Onboarding_Logiciel/sonarlint.png)
+![sonar](/Images/Onboarding_Logiciel/sonarlint.png)
 
 #### ES7+ React/Redux snippets *(Optional)*
-![es7](Images/Onboarding_Logiciel/es7.png)
+![es7](/Images/Onboarding_Logiciel/es7.png)
 
 
 ### Extension confort visuel
 #### Mardown All in One
 
-![markdown](Images/Onboarding_Logiciel/markdown.png)
+![markdown](/Images/Onboarding_Logiciel/markdown.png)
 #### Rainbow CSV
 
-![rainbowcsv](Images/Onboarding_Logiciel/rainbowcsv.png)
+![rainbowcsv](/Images/Onboarding_Logiciel/rainbowcsv.png)
 #### Material Icon Theme
 
-![materialicon](Images/Onboarding_Logiciel/materialicon.png)
+![materialicon](/Images/Onboarding_Logiciel/materialicon.png)
 
 #### Color Highlight
-![colorHighlight](Images/Onboarding_Logiciel/highlightcolor.png)
+![colorHighlight](/Images/Onboarding_Logiciel/highlightcolor.png)
 
 #### :emojisense:
-![emojisense](Images/Onboarding_Logiciel/emojisense.png)
+![emojisense](/Images/Onboarding_Logiciel/emojisense.png)
 #### Theme
 
 Il est recommandé d'installer un theme afin de personnalisé son experience en fonction de ses gouts. [En voici quelques uns](https://www.commentcoder.com/themes-vs-code/)
