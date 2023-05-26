@@ -7,11 +7,23 @@ date: 2023-05-26 09:38
 tags: 
 - Code
 - Windows
-heroImage: /Images/Multiple_git_account_on_same_machine/Multiple_git_account_on same_machine_hero.png
+heroImage: /Images/Multiple_git_account_on_same_machine/hero.png
 
 ---
 
 # How To Work With Multiple Github Accounts on a single Machine
+
+## Intro 
+
+Before starting out, this tutorial is a copy of [Rahul Pandey](https://github.com/rahularity) tutorial. It was so useful that i could not risk to loose it and decided to archive it on my own website.
+
+
+Let suppose I have two github accounts, **https:/<span></span>/github.com<span></span>/goyo-office** and **https:/<span></span>/github.com<span></span>/goyo-personal**. Now i want to setup my mac to easily talk to both the github accounts.
+
+> NOTE: This logic can be extended to more than two accounts also. :)
+
+The setup can be done in 5 easy steps:
+## Steps:
 
 - [Step 1](#Step%201)
 	- [Create SSH keys for all accounts](#Create%20SSH%20keys%20for%20all%20accounts)
@@ -24,21 +36,6 @@ heroImage: /Images/Multiple_git_account_on_same_machine/Multiple_git_account_on 
 	- [SSO](#SSO)
 - [Step 5](#Step%205)
 	- [Cloning GitHub repositories using different accounts](#Cloning%20GitHub%20repositories%20using%20different%20accounts)
-- [Finally](#Finally)
-		- [References](#References)
-
-
-Let suppose I have two github accounts, **https:/<span></span>/github.com<span></span>/rahul-office** and **https:/<span></span>/github.com<span></span>/rahul-personal**. Now i want to setup my mac to easily talk to both the github accounts.
-
-> NOTE: This logic can be extended to more than two accounts also. :)
-
-The setup can be done in 5 easy steps:
-## Steps:
-- [Step 1](#step-1) : Create SSH keys for all accounts
-- [Step 2](#step-2) : Add SSH keys to SSH Agent
-- [Step 3](#step-3) : Add SSH public key to the Github
-- [Step 4](#step-4) : Create a Config File and Make Host Entries
-- [Step 5](#step-5) : Cloning GitHub repositories using different accounts
 
 <br>
 
@@ -64,7 +61,7 @@ After entering the command the terminal will ask for passphrase, leave it empty 
 
 > Now after adding keys , in your .ssh folder, a public key and a private will get generated.
 
->The public key will have an extention __.pub__ and private key will be there without any extention both having same name which you have passed after __-f__ option in the above command. (in my case __github-rahul-office__ and __github-rahu-personal__)
+>The public key will have an extention __.pub__ and private key will be there without any extention both having same name which you have passed after __-f__ option in the above command. (in my case __github-goyo-office__ and __github-goyo-personal__)
 
 <br>
 
@@ -72,8 +69,8 @@ After entering the command the terminal will ask for passphrase, leave it empty 
 ### Add SSH keys to SSH Agent
 Now we have the keys but it cannot be used until we add them to the SSH Agent.
 ```sh
-     ssh-add -K ~/.ssh/github-rahul-office
-     ssh-add -K ~/.ssh/github-rahul-personal
+     ssh-add -K ~/.ssh/github-goyo-office
+     ssh-add -K ~/.ssh/github-goyo-personal
 ```
 
 You can read more about adding keys to SSH Agent [here.](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -88,10 +85,10 @@ For doing this we need to:
 
 __1. Copy the public key__
 
-     We can copy the public key either by opening the github-rahul-office.pub file in vim and then copying the content of it.
+     We can copy the public key either by opening the github-goyo-office.pub file in vim and then copying the content of it.
 ```sh
-     vim ~/.ssh/github-rahul-office.pub
-     vim ~/.ssh/github-rahul-personal.pub
+     vim ~/.ssh/github-goyo-office.pub
+     vim ~/.ssh/github-goyo-personal.pub
 ```
 
 
@@ -101,8 +98,8 @@ OR
 We can directly copy the content of the public key file in the clipboard.
 
 ```sh
-     pbcopy < ~/.ssh/github-rahul-office.pub
-     pbcopy < ~/.ssh/github-rahul-personal.pub
+     pbcopy < ~/.ssh/github-goyo-office.pub
+     pbcopy < ~/.ssh/github-goyo-personal.pub
 ```   
 
 
@@ -137,17 +134,17 @@ The commands below opens config in your default editor....Likely TextEdit, VS Co
 ```
 Now we need to add these lines to the file, each block corresponding to each account we created earlier.
 ```config
-     #rahul-office account
-     Host github.com-rahul-office
+     #goyo-office account
+     Host github.com-goyo-office
           HostName github.com
           User git
-          IdentityFile ~/.ssh/github-rahul-office
+          IdentityFile ~/.ssh/github-goyo-office
 
-     #rahul-personal account
-     Host github.com-rahul-personal
+     #goyo-personal account
+     Host github.com-goyo-personal
           HostName github.com
           User git
-          IdentityFile ~/.ssh/github-rahul-personal
+          IdentityFile ~/.ssh/github-goyo-personal
 ```
 
 <br>
@@ -168,7 +165,7 @@ Now for cloning the repo use the below command:
  ```git
      git clone git@github.com-{your-username}:{owner-user-name}/{the-repo-name}.git
 
-     [e.g.] git clone git@github.com-rahul-personal:rahul-personal/TestRepo.git
+     [e.g.] git clone git@github.com-goyo-personal:goyo-personal/TestRepo.git
  ```
 
  <br>
@@ -181,19 +178,19 @@ To do this use the following commands.
 
 ```git
      git config user.email "my_office_email@gmail.com"
-     git config user.name "Rahul Pandey"
+     git config user.name "goyo Office"
      
      git config user.email "my-personal-email@gmail.com"
-     git config user.name "Rahul Pandey"
+     git config user.name "goyo Perso"
 ```
 Pick the correct pair for your repository accordingly.
 
 
 To push or pull to the correct account we need to add the remote origin to the project
 ```git
-     git remote add origin git@github.com-rahul-personal:rahul-personal
+     git remote add origin git@github.com-goyo-personal:goyo-personal
      
-     git remote add origin git@github.com-rahul-office:rahul-office
+     git remote add origin git@github.com-goyo-office:goyo-office
 ```
 
 Now you can use:
@@ -204,7 +201,7 @@ Now you can use:
 ```
 #### References
 
-https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
+https://gist.github.com/goyoarity/86da20fe3858e6b311de068201d279e3
 https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Windows-Example
 Tags : #Code #Windows 
 
