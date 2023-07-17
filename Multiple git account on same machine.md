@@ -135,13 +135,13 @@ The commands below opens config in your default editor....Likely TextEdit, VS Co
 Now we need to add these lines to the file, each block corresponding to each account we created earlier.
 ```config
      #goyo-office account
-     Host github.com-goyo-office
+     Host github.com-office
           HostName github.com
           User git
           IdentityFile ~/.ssh/github-goyo-office
 
      #goyo-personal account
-     Host github.com-goyo-personal
+     Host github.com-goyo
           HostName github.com
           User git
           IdentityFile ~/.ssh/github-goyo-personal
@@ -159,16 +159,16 @@ So we are done with our setups and now its time to see it in action. We will clo
 
 Make a new project folder where you want to clone your repository and go to that directory from your terminal.
 
-For Example:
-I am making a repository on my personal github account and naming it **TestRepo**
-Now for cloning the repo use the below command:
- ```git
-     git clone git@github.com-{your-username}:{owner-user-name}/{the-repo-name}.git
+You can directly copy the provided link by the hosting service : 
+Usually you would get something generic like this : 
+![ssh_demo](/Images/Multiple_git_account_on_same_machine/sshdemo.png)
+You will just need to modify the first part of the link with your costomised alias :
 
-     [e.g.] git clone git@github.com-goyo-personal:goyo-personal/TestRepo.git
- ```
+```
+git clone git@github.com-{your-account}:GoyoStach/Hub.git
 
- <br>
+[e.g.] git@github.com-goyo:GoyoStach/Hub.git
+```
 
  ## Finally
 
@@ -184,14 +184,6 @@ To do this use the following commands.
      git config user.name "goyo Perso"
 ```
 Pick the correct pair for your repository accordingly.
-
-
-To push or pull to the correct account we need to add the remote origin to the project
-```git
-     git remote add origin git@github.com-goyo-personal:goyo-personal
-     
-     git remote add origin git@github.com-goyo-office:goyo-office
-```
 
 Now you can use:
 ```git
