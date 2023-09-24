@@ -1,6 +1,5 @@
 ---
- 
-layout: '../../layouts/BlogPost.astro'
+
 title: Gin Collection
 description: My collection of Gin. With prices and explanations about products. 
 date: 2023-01-14 14:53

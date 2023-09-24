@@ -1,6 +1,5 @@
 ---
- 
-layout: '../../layouts/BlogPost.astro'
+
 title: Eslint & Prettier
 description: How to setup and use correctly Eslint & Prettier for a node JS or TS application.
 date: 2023-05-23 08:36

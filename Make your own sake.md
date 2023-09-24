@@ -1,6 +1,6 @@
 ---
  
-layout: '../../layouts/BlogPost.astro'
+
 title: Make your own sake
 description: A follow allong tutorial on how to make your own sake at home. Based on the tutorial video from Jimmy Kim.
 date: 2023-03-16 13:44

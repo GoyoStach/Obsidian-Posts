@@ -1,6 +1,6 @@
 ---
  
-layout: '../../layouts/BlogPost.astro'
+
 title: Multiple git account on same machine
 description: How to setup and use multiple git account on a the same machine
 date: 2023-05-26 09:38

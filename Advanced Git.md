@@ -1,6 +1,5 @@
 ---
- 
-layout: '../../layouts/BlogPost.astro'
+
 title: Advanced Git
 description: More advanced git subjects. That should be useful in a professional working environnement.
 date: 2023-07-24 12:39

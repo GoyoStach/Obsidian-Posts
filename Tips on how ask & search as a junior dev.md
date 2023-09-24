@@ -1,6 +1,5 @@
 ---
- 
-layout: '../../layouts/BlogPost.astro'
+
 title: Tips on how ask & search as a junior dev
 description: Tips on how to request correctly for help.
 date: 2023-03-03 20:15

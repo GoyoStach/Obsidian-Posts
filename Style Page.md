@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/BlogPost.astro'
+
 title: 'Markdown Style Test'
 description: 'This file is used to see if the styling is properly working on the markdown content.'
 tags: 
