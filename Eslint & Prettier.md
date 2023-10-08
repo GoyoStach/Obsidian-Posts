@@ -7,7 +7,7 @@ tags:
 - Code
 - Learning
 - TS
-heroImage: ../../Images/Eslint_&_Prettier/Eslint_&_Prettier_hero.png
+heroImage: ../../Images/EslintPrettier/EslintPrettier_hero.png
 
 ---
 
@@ -47,14 +47,14 @@ You will need to first install both related extension :
 
 | Description         | Image                                         |
 | ------------------- | --------------------------------------------- |
-| Eslint. | ![Eslint](../../Images/Eslint_&_Prettier/eslint_extension.png) |
-| Prettier. | ![Eslint](../../Images/Eslint_&_Prettier/prettier_extension.png) |
+| Eslint. | ![Eslint](Images/EslintPrettier/eslint_extension.png) |
+| Prettier. | ![Eslint](Images/EslintPrettier/prettier_extension.png) |
 
 
 Once those both extension are installed, you can change the settings so that Eslint will auto fix your formatting errors if it can on save.
 
 Settings > search bar > "format"
-![format](../../Images/Eslint_&_Prettier/default_format.png)
+![format](Images/EslintPrettier/default_format.png)
 
 VS Code is now ready to handle your project specific configuration ! 
 
@@ -102,7 +102,7 @@ npm install -D eslint-config-prettier eslint-plugin-prettier
 
 We are installing those two libraries in order to have indicator on the editor and fix it. Here is a great breakdown of the utility of those package and their differences :
 
-![PrettierLink](../../Images/Eslint_&_Prettier/prettier-link.png)
+![PrettierLink](Images/EslintPrettier/prettier-link.png)
 
 You then will need to add some lines to your `.eslintrc.json`
 
