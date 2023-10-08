@@ -4,7 +4,7 @@ title: 'Markdown Style Test'
 description: 'This file is used to see if the styling is properly working on the markdown content.'
 tags: 
 - Code
-heroImage: '/placeholder-hero.jpg'
+heroImage: '../../Images/astro_banner.png'
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
@@ -33,7 +33,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ## Images
 
-![This is a placeholder image description](/placeholder-social.jpg)
+![This is a placeholder image description](../../Images/astro_banner.png)
 
 ## Blockquotes
 
