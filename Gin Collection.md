@@ -6,7 +6,7 @@ date: 2023-01-14 14:53
 tags:
 - Hobby
 - Alcohol
-heroImage: /Images/Gin_Collection/Gin Collection_hero.jpg
+heroImage: ../../Images/Gin_Collection/Gin Collection_hero.jpg
 
 ---
 
@@ -20,7 +20,7 @@ Since I've started taking interest in alcohol, Gin has always been one of the st
 
 ### Nikka Coffee 
 
-![Nikka Coffee](/Images/Gin_Collection/Nikka_Coffee.jpg)
+![Nikka Coffee](../../Images/Gin_Collection/Nikka_Coffee.jpg)
 
 
 ## English Gin

@@ -7,7 +7,7 @@ tags:
 - React
 - Code
 - TS
-heroImage: /Images/i18next/i18next_hero.png
+heroImage: ../../Images/i18next/i18next_hero.png
 ---
 
 # i18next - Multiple Lang tool
@@ -42,7 +42,7 @@ npm run dev
 ```
 
 You should be able to see a generic project running :
-![kickstart](/Images/i18next/kickstart_vite.png)
+![kickstart](../../Images/i18next/kickstart_vite.png)
 
 ### Installing i18next dependencies
 
@@ -198,13 +198,13 @@ export default App;
 ## Demo
 
 You can directly see the result in your project by running `npm run dev`
-![demo-english](/Images/i18next/demo_english.png)
+![demo-english](../../Images/i18next/demo_english.png)
 
 To see if it does work in the other provided languages, head to the inspector tool of you navigator (F12). Go to application tab and then cookie
-![cookie](/Images/i18next/cookie.png)
+![cookie](../../Images/i18next/cookie.png)
 
 You can modify the `en` variable with either `jp` or `ko`. Hit refresh and you should see some change on your page !
-![demo_japanese](/Images/i18next/demo_japanese.png)
+![demo_japanese](../../Images/i18next/demo_japanese.png)
 
 ## Going further
 

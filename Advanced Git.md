@@ -5,7 +5,7 @@ description: More advanced git subjects. That should be useful in a professional
 date: 2023-07-24 12:39
 tags: 
 - Code
-heroImage: /Images/Advanced_Git/Advanced_Git_hero.jpg
+heroImage: ../../Images/Advanced_Git/Advanced_Git_hero.jpg
 
 ---
 
@@ -37,7 +37,7 @@ This command might me the most common among the ones i'll explain in this note. 
 
 You have a production environnement and a dev environnement. You get notified of a major bug in production ! You are a great developer and anticipated this issue & already fixed it a few days ago in dev. However you continued pushing your code in dev everyday as you should and now the bugfix is merged into your commit history. The commits are going as follow :
 
-![gitflow](/Images/Advanced_Git/gitflow.drawio.png)
+![gitflow](../../Images/Advanced_Git/gitflow.drawio.png)
 
 You only want to ship in production the bugFix, and not all the features that you have already pushed in dev. They might not be ready and tested properly. 
 
@@ -110,7 +110,7 @@ It is a good practice to have a versioning system when pushing to production. Me
 It can be useful to secure your features in a test environnement with a pre-release tag.
 Then upgrade it to latest once fully tested and ready to be deployed in prod.
 
-![release](/Images/Advanced_Git/release1.png)
+![release](../../Images/Advanced_Git/release1.png)
 
 ## References
 

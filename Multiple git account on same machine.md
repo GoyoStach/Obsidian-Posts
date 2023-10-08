@@ -7,7 +7,7 @@ date: 2023-05-26 09:38
 tags: 
 - Code
 - Windows
-heroImage: /Images/Multiple_git_account_on_same_machine/hero.png
+heroImage: ../../Images/Multiple_git_account_on_same_machine/hero.png
 
 ---
 
@@ -161,7 +161,7 @@ Make a new project folder where you want to clone your repository and go to that
 
 You can directly copy the provided link by the hosting service : 
 Usually you would get something generic like this : 
-![ssh_demo](/Images/Multiple_git_account_on_same_machine/sshdemo.png)
+![ssh_demo](../../Images/Multiple_git_account_on_same_machine/sshdemo.png)
 You will just need to modify the first part of the link with your costomised alias :
 
 ```

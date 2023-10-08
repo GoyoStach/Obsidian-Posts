@@ -6,7 +6,7 @@ date: 2023-01-19 20:05
 tags: 
 - Health
 - Learning
-heroImage: /Images/Advise_for_life/Advise_for_life_hero.jpg
+heroImage: ../../Images/Advise_for_life/Advise_for_life_hero.jpg
 
 ---
 

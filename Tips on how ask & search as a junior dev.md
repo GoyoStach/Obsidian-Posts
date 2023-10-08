@@ -6,7 +6,7 @@ date: 2023-03-03 20:15
 tags: 
 - Code 
 - Learning 
-heroImage: /Images/Tips_on_how_ask_&_search_as_a_junior_dev/Tips_on_how_ask_&_search_as_a_junior_dev_hero.jpeg
+heroImage: ../../Images/Tips_on_how_ask_&_search_as_a_junior_dev/Tips_on_how_ask_&_search_as_a_junior_dev_hero.jpeg
 ---
 
 # Tips on how ask & search as a junior dev

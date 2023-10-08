@@ -8,14 +8,14 @@ tags:
 - Alcohol
 - Hobby
 - Learning
-heroImage: /Images/Make_your_own_sake/Make_your_own_sake_hero.jpeg
+heroImage: ../../Images/Make_your_own_sake/Make_your_own_sake_hero.jpeg
 ---
 
 # Make your own sake
 
 Follow allong the recipe on this video : [I Made the MOST DELICIOUS Sake at Home.](https://www.youtube.com/watch?v=lrvDgTYilog)
 
-[![Thumbnail](/Images/Make_your_own_sake/thumbnail.jpg)](https://www.youtube.com/watch?v=lrvDgTYilog)
+[![Thumbnail](../../Images/Make_your_own_sake/thumbnail.jpg)](https://www.youtube.com/watch?v=lrvDgTYilog)
 
 ## Ingredients :
 Koji Kin: [https://amzn.to/41pCtwm](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXUtOUVjbkFCVXlPa3k2OGxndUVXNlVkdlQ4d3xBQ3Jtc0trM3NEaUpIMHBEdkpKMlc4ZzRNWVpWOWVjaEhIU0pac3JXLUR3dHNhWlp3bUN2c2EtOGU4a2dRUFVMTWhSS1RoRGNpX3R4LWNIR01kUWdSclFVWC1WaDhwOXJZRDIzSHJxTC1ZZ3ZsdE9CRHowdzVzOA&q=https%3A%2F%2Famzn.to%2F41pCtwm&v=lrvDgTYilog) 

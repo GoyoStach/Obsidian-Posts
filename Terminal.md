@@ -8,7 +8,7 @@ tags:
 - FR
 - Code
 - Windows
-heroImage: /Images/Terminal/Terminal_hero.png
+heroImage: ../../Images/Terminal/Terminal_hero.png
 
 ---
 
@@ -43,7 +43,7 @@ Basé sur le [Tutoriel Officiel Microsoft](https://learn.microsoft.com/fr-fr/win
 
 | Description                                                                                                                                                                                                                       | Image                                                          |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| Pour avoir une expérience de terminal plus agréable, il est recommandé de passé par le **Terminal Windows**. Il n'est pas présent sur Windows 10 de base, il faut donc l'installer. Ce logiciel est dispo sur la Microsoft store. | ![Microsost Store](/Images/Terminal/ApplicationFrameHost_C5IMvE6HVk.png) |
+| Pour avoir une expérience de terminal plus agréable, il est recommandé de passé par le **Terminal Windows**. Il n'est pas présent sur Windows 10 de base, il faut donc l'installer. Ce logiciel est dispo sur la Microsoft store. | ![Microsost Store](../../Images/Terminal/ApplicationFrameHost_C5IMvE6HVk.png) |
 
 Une fois l'installation terminée, on peut configurer le terminal pour avoir une config plus adaptée :
 
@@ -52,7 +52,7 @@ Une fois l'installation terminée, on peut configurer le terminal pour avoir une
 - Avoir une Police qui supporte les charactères spéciaux venant de [Nerd Fonts](https://www.nerdfonts.com/font-downloads). Je recommande _Nerd Hack NF_ qui est sobre et stable.
   - Telecharger le zip et l'extraire.
   - Choisir dans le dossier la police qui convient ( _Hack Regular Nerd Font Complete Windows Compatible.ttf_ dans le cas de Hack NF) > Installer pour tous les utilisateurs.
-  - L'ajouter comme Police par defaut dans les paramètres du Terminal. ![Police par Defaut](/Images/Terminal/WindowsTerminal_yumFGbqj8A.png)
+  - L'ajouter comme Police par defaut dans les paramètres du Terminal. ![Police par Defaut](../../Images/Terminal/WindowsTerminal_yumFGbqj8A.png)
 
 ### Oh My Posh
 
@@ -97,8 +97,8 @@ Set-ExecutionPolicy RemoteSigned
 #### Customisation
 
 Maintenant le choix est de votre coté pour choisir le [theme](https://ohmyposh.dev/docs/themes) que vous souhaitez utiliser pour votre terminal. En voici quelques un recommandés:
-![Theme 1](/Images/Terminal/chrome_QEgtSPBCbk.png)
-![Theme 1](/Images/Terminal/chrome_8ZZhvFBZFk.png)
+![Theme 1](../../Images/Terminal/chrome_QEgtSPBCbk.png)
+![Theme 1](../../Images/Terminal/chrome_8ZZhvFBZFk.png)
 ...
 
 Pour ajoutez le theme choisi, dans le terminal ouvrez le fichier **$profile**
@@ -121,7 +121,7 @@ Pour plus de lisibilité il est recommandé d'ajouter au fichier **$profile** un
 Import-Module -Name Terminal-Icons
 ```
 
-![Terminal Icons](/Images/Terminal/Terminal_hero.png)
+![Terminal Icons](../../Images/Terminal/Terminal_hero.png)
 
 ### Git
 
@@ -130,7 +130,7 @@ Git est un outil de versionning **OBLIGATOIRE** pour un développeur. Ainsi nous
 - Télecharger l'executable sur le [site officiel](https://git-scm.com/downloads)
 - Suivre la procédure d'installation par défaut.
 - Faire un test pour bien s'assurer que git est installé
-  ![Git dans le terminal](/Images/Terminal/WindowsTerminal_GosuVhBvYs.png)
+  ![Git dans le terminal](../../Images/Terminal/WindowsTerminal_GosuVhBvYs.png)
 
 ## Facultatif
 
