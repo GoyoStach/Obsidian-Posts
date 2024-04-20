@@ -65,7 +65,7 @@ For the browser of the client, SSR is the same as SSG. The goal is for the brows
 
 Here a simplified schema of typical SSR page.
 
-![next-ssg](../../Images/rendering_strategies_next/ssr_fetch.png)
+![next-ssg](../../Images/rendering_strategies_next/ssr_fetchingv2.png)
 
 As you can see, there is a caching strategiy built in NEXT. It is something that is **enabled by default** so you have to specify if you dont want it. You can also decide to customize the duration of the cache. For more details on caching, look at the [official documentation on the subject](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating). 
 
